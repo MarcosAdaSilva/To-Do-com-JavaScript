@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("./img.projeto.jpg");
+  background-image: url("../img/imagem.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -22,4 +22,7 @@ button {
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+}
+button:hover {
+  background-color: #102f5e;
 }
