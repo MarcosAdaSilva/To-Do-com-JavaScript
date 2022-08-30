@@ -55,6 +55,7 @@ todoForm.addEventListener("submit", (e) => {
 document.addEventListener("click", (e) => {
   const targetEl = e.target;
   const parentEl = targetEl.closest("div");
+  let todoTitle;
 
   if (targetEl.classList.contains("finish-todo")) {
     parentEl.classList.toggle("done");
